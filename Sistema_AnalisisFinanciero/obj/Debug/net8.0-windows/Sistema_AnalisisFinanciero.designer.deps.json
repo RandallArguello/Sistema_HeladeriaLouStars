@@ -1,0 +1,94 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CircularProgressBar/2.8.0.16": {
+        "dependencies": {
+          "WinFormAnimation": "1.6.0.4"
+        },
+        "runtime": {
+          "lib/net40/CircularProgressBar.dll": {
+            "assemblyVersion": "2.8.0.16",
+            "fileVersion": "2.8.0.16"
+          }
+        }
+      },
+      "CircularProgressBar_NET5/3.0.0": {
+        "dependencies": {
+          "WinFormAnimation-NET5": "2.0.0"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/CircularProgressBar_NET5.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "FontAwesome.Sharp/6.6.0": {
+        "runtime": {
+          "lib/net8.0-windows7.0/FontAwesome.Sharp.dll": {
+            "assemblyVersion": "6.6.0.0",
+            "fileVersion": "6.6.0.0"
+          }
+        }
+      },
+      "WinFormAnimation/1.6.0.4": {
+        "runtime": {
+          "lib/net40/WinFormAnimation.dll": {
+            "assemblyVersion": "1.6.0.4",
+            "fileVersion": "1.6.0.4"
+          }
+        }
+      },
+      "WinFormAnimation-NET5/2.0.0": {
+        "runtime": {
+          "lib/net5.0/WinFormAnimation_NET5.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CircularProgressBar/2.8.0.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P31wJxwTcQ2mA7wB4X+tnc9QlfSNyPzEOyt3qjf2/6cLLi8mERAfEwNcgt3Qv38/Xiyreo/nVYDe2zIVEv4SQw==",
+      "path": "circularprogressbar/2.8.0.16",
+      "hashPath": "circularprogressbar.2.8.0.16.nupkg.sha512"
+    },
+    "CircularProgressBar_NET5/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qtg1nEX2ZvLquRQXXkSFC9aJ8jCn/VPgjWwsHEvFrORWh8JvO/vzE/kCwIYXulAisk3P7RVSIBd7VACcuYShAA==",
+      "path": "circularprogressbar_net5/3.0.0",
+      "hashPath": "circularprogressbar_net5.3.0.0.nupkg.sha512"
+    },
+    "FontAwesome.Sharp/6.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bJCb2x73UC1nD9+9iMLaUy6Ujf9Pf+buL6FHwVnaoDYT4CQNLazz59hO5gQ0+SMSW0G+ZXmjjShOYr3Jn2UZiw==",
+      "path": "fontawesome.sharp/6.6.0",
+      "hashPath": "fontawesome.sharp.6.6.0.nupkg.sha512"
+    },
+    "WinFormAnimation/1.6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YSic50luSCgFq+JejHBq5DKwxpNP1VH7uOyBXC+8v6dd+CuUYGlKSOL4EbwT1WeWJQvFBoDMqHnq7HsF95kxrw==",
+      "path": "winformanimation/1.6.0.4",
+      "hashPath": "winformanimation.1.6.0.4.nupkg.sha512"
+    },
+    "WinFormAnimation-NET5/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xsqrJBJUGVCcdMIAr2gGstpVyiBR2VXvbl8lMTEpCiSQ6xy3WL679tc27nBZoyOgaZQ2Jpi7j8b7WEmPztOtdg==",
+      "path": "winformanimation-net5/2.0.0",
+      "hashPath": "winformanimation-net5.2.0.0.nupkg.sha512"
+    }
+  }
+}
