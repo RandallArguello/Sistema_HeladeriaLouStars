@@ -1,6 +1,10 @@
 ﻿using HeladeriaLouStars_API.Dto;
 using HeladeriaLouStars_API.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace HeladeriaLouStars_API.Controllers
 {
@@ -8,53 +12,63 @@ namespace HeladeriaLouStars_API.Controllers
     [ApiController]
     public class AuthController : Controller
     {
-        private readonly IUsuarioService _usuarioService;
-        private readonly ILogger<AuthController> _logger;
+        private readonly IConfiguration _configuration;
 
-        public AuthController(IUsuarioService usuarioService, ILogger<AuthController> logger)
+        public AuthController(IConfiguration configuration)
         {
-            _usuarioService = usuarioService;
-            _logger = logger;
+            _configuration = configuration;
         }
 
-
         [HttpPost("login")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
-        public async Task<ActionResult<LoginResponse>> Login([FromBody] LoginRequest request)
+        public IActionResult Login([FromBody] LoginRequest request)
         {
-            _logger.LogInformation("Intento de login para usuario: {Usuario}", request.User);
-
-            // Validación del modelo - el ExceptionMiddleware capturará cualquier excepción
-            if (!ModelState.IsValid)
+            // Validar credenciales (en un caso real, esto se haría contra la base de datos)
+            if (request.User == "usuario_admin" && request.Pass == "AdminLoquendo123")
             {
-                _logger.LogWarning("Modelo inválido en login para usuario: {Usuario}", request.User);
-                return BadRequest(new { error = "Datos de entrada inválidos", detalles = ModelState });
+                var token = GenerateJwtToken(request.User, "Administrador");
+                return Ok(new LoginResponse
+                {
+                    Token = token,
+                    User = request.User,
+                    Rol = "Administrador",
+                    Expiracion = DateTime.Now.AddMinutes(60)
+                });
+            }
+            else if (request.User == "usuario_contratista" && request.Pass == "ContratistaLoquendo123")
+            {
+                var token = GenerateJwtToken(request.User, "Gerente");
+                return Ok(new LoginResponse
+                {
+                    Token = token,
+                    User = request.User,
+                    Rol = "Contratista",
+                    Expiracion = DateTime.Now.AddMinutes(60)
+                });
             }
 
-            var usuario = await _usuarioService.ValidarUsuarioAsync(request.User, request.Pass);
+            return Unauthorized(new { error = "Credenciales inválidas" });
+        }
 
-            if (usuario == null)
+        private string GenerateJwtToken(string usuario, string rol)
+        {
+            var jwtSettings = _configuration.GetSection("Jwt");
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings["Key"]));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var claims = new[]
             {
-                _logger.LogWarning("Credenciales incorrectas para usuario: {Usuario}", request.User);
-                return Unauthorized(new { error = "Credenciales incorrectas" });
-            }
-
-            var token = await _usuarioService.GenerarTokenAsync(usuario);
-
-            _logger.LogInformation("Login exitoso para usuario: {Usuario}, Rol: {Rol}",
-                usuario.NombreUsuario, usuario.Rol);
-
-            var response = new LoginResponse
-            {
-                Token = token,
-                Usuario = usuario.NombreUsuario,
-                Rol = usuario.Rol,
-                Expiracion = DateTime.UtcNow.AddHours(1)
+                new Claim(ClaimTypes.Name, usuario),
+                new Claim(ClaimTypes.Role, rol)
             };
 
-            return Ok(response);
+            var token = new JwtSecurityToken(
+                issuer: jwtSettings["Issuer"],
+                audience: jwtSettings["Audience"],
+                claims: claims,
+                expires: DateTime.Now.AddMinutes(Convert.ToDouble(jwtSettings["ExpireMinutes"])),
+                signingCredentials: creds);
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }
 }

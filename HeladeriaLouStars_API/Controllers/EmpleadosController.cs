@@ -142,7 +142,7 @@ namespace HeladeriaLouStars_API.Controllers
 
             _logger.LogInformation("Cliente con ID {Id} actualizado exitosamente", id);
 
-            return Ok(new { message = "Cliente actualizado exitosamente", cliente = empleadoDto });
+            return Ok(new { message = "Cliente actualizado exitosamente", empleado = empleadoDto });
         }
 
         [Authorize(Roles = "Administrador")]

@@ -85,7 +85,7 @@ namespace HeladeriaLouStars_API.DAO
             using var cmd = new SqlCommand(Procedimientos.SP_INSERTAR_EMPLEADOS, cn)
             { CommandType = CommandType.StoredProcedure };
 
-
+            
             cmd.Parameters.AddWithValue("@Nombre", c.Nombre);
             cmd.Parameters.AddWithValue("@Apellido", c.Apellido);
             cmd.Parameters.AddWithValue("@Email", c.Email);
