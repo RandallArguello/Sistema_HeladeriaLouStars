@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HeladeriaLouStarsApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fa746523eb505d361965f3f55de085f440ad338")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ae3f4bb36f4419c7ed513b571a983d8cc109ce9")]
 [assembly: System.Reflection.AssemblyProductAttribute("HeladeriaLouStarsApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HeladeriaLouStarsApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

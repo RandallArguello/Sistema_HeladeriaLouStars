@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "77eewss29DBS5fWI2oBIoBw/CPVyTbDauDH/O28OeKE=",
-  "Source": "HeladeriaLouStars_API",
-  "BasePath": "_content/HeladeriaLouStars_API",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"R/f2oZ6Qlp154K1xcN15k80ibCmwU5XusiEf0eOt7KA=","Source":"HeladeriaLouStars_API","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

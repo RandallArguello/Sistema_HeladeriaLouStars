@@ -50,8 +50,7 @@ namespace HeladeriaLouStarsApp.Views
             cbxGenero.SelectedItem = _empleadoExistente.Genero;
             txtCedula.Text = _empleadoExistente.Cedula;
             DtFechaNacimiento.Value = _empleadoExistente.FechaNacimiento ?? DateTime.Now;
-            DtFechaIngreso.Value = _empleadoExistente.FechaIngreso;
-
+            SetDatePickerValue(DtFechaIngreso, _empleadoExistente.FechaIngreso);
         }
         private void AgregarEmpleado_Load(object sender, EventArgs e)
         {
@@ -216,6 +215,12 @@ namespace HeladeriaLouStarsApp.Views
             }
         }
 
-        
+        private void SetDatePickerValue(DateTimePicker picker, DateTime? value)
+        {
+            if (value.HasValue && value.Value >= picker.MinDate && value.Value <= picker.MaxDate)
+                picker.Value = value.Value;
+            else
+                picker.Value = DateTime.Now; // o picker.Enabled = false;
+        }
     }
 }
