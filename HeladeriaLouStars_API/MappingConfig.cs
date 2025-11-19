@@ -12,9 +12,12 @@ namespace HeladeriaLouStars_API
             CreateMap<Empleado, EmpleadoCreateDto>().ReverseMap();
             CreateMap<Empleado, EmpleadoUpdateDto>().ReverseMap();
 
+            
             CreateMap<Nomina, NominaDto>().ReverseMap();
             CreateMap<Nomina, NominaCreateDto>().ReverseMap();
             CreateMap<Nomina, NominaUpdateDto>().ReverseMap();
+
+            
 
             CreateMap<Contrato, ContratoDto>().ReverseMap();
             CreateMap<Contrato, ContratoCreateDto>().ReverseMap();

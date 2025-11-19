@@ -7,7 +7,7 @@ namespace HeladeriaLouStars_API.Dto
         [Required(ErrorMessage = "El campo EmpleadoID es obligatorio.")]
         [Range(1, int.MaxValue, ErrorMessage = "El EmpleadoID debe ser mayor que cero.")]
         public int EmpleadoID { get; set; }
-
+        public int AdministradorID { get; set; }
 
         [Required(ErrorMessage = "fecha obligatoria.")]
         public DateTime Periodo { get; set; }

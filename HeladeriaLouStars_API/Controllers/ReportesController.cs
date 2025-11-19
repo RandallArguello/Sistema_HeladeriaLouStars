@@ -23,7 +23,7 @@ namespace HeladeriaLouStars_API.Controllers
         }
 
         [Authorize(Roles = "Contratista,Administrador")]
-        [HttpGet("EmpleadoJson")]
+        [HttpGet("EmpleadosJson")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<IEnumerable<ReporteEmpleadoDto>>> EmpleadosJson(DateTime? fechaInicio = null, DateTime? fechaFin = null)
         {

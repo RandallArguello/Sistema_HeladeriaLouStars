@@ -88,6 +88,7 @@ namespace HeladeriaLouStars_API.DAO
             using var cmd = new SqlCommand(Procedimientos.SP_ACTUALIZAR_ADMINISTRADORES, cn)
             { CommandType = CommandType.StoredProcedure };
 
+            cmd.Parameters.AddWithValue("@ID_Administrador", c.IdAdministrador);
             cmd.Parameters.AddWithValue("@Nombre_Usuario", c.NombreUsuario);
             cmd.Parameters.AddWithValue("@Contraseña", c.Contraseña);
             cmd.Parameters.AddWithValue("@Correo", c.Correo);

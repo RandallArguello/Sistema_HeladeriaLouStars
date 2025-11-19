@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HeladeriaLouStars_API.props" />
+</Project>

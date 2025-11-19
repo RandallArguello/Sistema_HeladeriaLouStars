@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Finanzas\\Sistema_AnalisisFinanciero\\HeladeriaLouStars_API\\HeladeriaLouStars_API.csproj": {}
+    "C:\\Users\\steve\\OneDrive\\Desktop\\Sistema_HeladeriaLouStars\\HeladeriaLouStars_API\\HeladeriaLouStars_API.csproj": {}
   },
   "projects": {
-    "E:\\Finanzas\\Sistema_AnalisisFinanciero\\HeladeriaLouStars_API\\HeladeriaLouStars_API.csproj": {
+    "C:\\Users\\steve\\OneDrive\\Desktop\\Sistema_HeladeriaLouStars\\HeladeriaLouStars_API\\HeladeriaLouStars_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Finanzas\\Sistema_AnalisisFinanciero\\HeladeriaLouStars_API\\HeladeriaLouStars_API.csproj",
+        "projectUniqueName": "C:\\Users\\steve\\OneDrive\\Desktop\\Sistema_HeladeriaLouStars\\HeladeriaLouStars_API\\HeladeriaLouStars_API.csproj",
         "projectName": "HeladeriaLouStars_API",
-        "projectPath": "E:\\Finanzas\\Sistema_AnalisisFinanciero\\HeladeriaLouStars_API\\HeladeriaLouStars_API.csproj",
+        "projectPath": "C:\\Users\\steve\\OneDrive\\Desktop\\Sistema_HeladeriaLouStars\\HeladeriaLouStars_API\\HeladeriaLouStars_API.csproj",
         "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
-        "outputPath": "E:\\Finanzas\\Sistema_AnalisisFinanciero\\HeladeriaLouStars_API\\obj\\",
+        "outputPath": "C:\\Users\\steve\\OneDrive\\Desktop\\Sistema_HeladeriaLouStars\\HeladeriaLouStars_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
