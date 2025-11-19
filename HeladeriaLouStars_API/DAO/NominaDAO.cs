@@ -79,12 +79,13 @@ namespace HeladeriaLouStars_API.DAO
             using var cmd = new SqlCommand(Procedimientos.SP_INSERTAR_NOMINAS, cn)
             { CommandType = CommandType.StoredProcedure };
 
-
+            cmd.Parameters.AddWithValue("@ID_Administrador", c.AdministradorID);
+            cmd.Parameters.AddWithValue("@ID_Empleado", c.EmpleadoID);
             cmd.Parameters.AddWithValue("@Periodo", c.Periodo);
             cmd.Parameters.AddWithValue("@Horas_Extra", c.HorasExtra);
             cmd.Parameters.AddWithValue("@Antiguedad", c.Antiguedad);
             cmd.Parameters.AddWithValue("@Deducciones", c.Deducciones);
-            cmd.Parameters.AddWithValue("@SalarioDevengado", c.SalarioDevengado);
+            cmd.Parameters.AddWithValue("@Salario_Devengado", c.SalarioDevengado);
             cmd.Parameters.AddWithValue("@Bonificaciones", c.Bonificaciones);
            
 
@@ -107,11 +108,14 @@ namespace HeladeriaLouStars_API.DAO
             using var cmd = new SqlCommand(Procedimientos.SP_ACTUALIZAR_NOMINAS, cn)
             { CommandType = CommandType.StoredProcedure };
 
+            cmd.Parameters.AddWithValue("@ID_Nomina", c.NominaID);
+            cmd.Parameters.AddWithValue("@ID_Administrador", c.AdministradorID);
+            cmd.Parameters.AddWithValue("@ID_Empleado", c.EmpleadoID);
             cmd.Parameters.AddWithValue("@Periodo", c.Periodo);
             cmd.Parameters.AddWithValue("@Horas_Extra", c.HorasExtra);
             cmd.Parameters.AddWithValue("@Antiguedad", c.Antiguedad);
             cmd.Parameters.AddWithValue("@Deducciones", c.Deducciones);
-            cmd.Parameters.AddWithValue("@SalarioDevengado", c.SalarioDevengado);
+            cmd.Parameters.AddWithValue("@Salario_Devengado", c.SalarioDevengado);
             cmd.Parameters.AddWithValue("@Bonificaciones", c.Bonificaciones);
 
             var result = await cmd.ExecuteScalarAsync();

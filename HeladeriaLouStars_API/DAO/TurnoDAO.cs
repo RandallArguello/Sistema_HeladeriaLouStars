@@ -80,7 +80,7 @@ namespace HeladeriaLouStars_API.DAO
             using var cmd = new SqlCommand(Procedimientos.SP_INSERTAR_TURNOS, cn)
             { CommandType = CommandType.StoredProcedure };
 
-
+            cmd.Parameters.AddWithValue("@ID_Empleado", c.IdEmpleado);
             cmd.Parameters.AddWithValue("@Hora_Inicio", c.HoraInicio);
             cmd.Parameters.AddWithValue("@Hora_Fin", c.HoraFin);
             cmd.Parameters.AddWithValue("@Descripción", c.Descripcion);
@@ -108,6 +108,8 @@ namespace HeladeriaLouStars_API.DAO
             using var cmd = new SqlCommand(Procedimientos.SP_ACTUALIZAR_TURNOS, cn)
             { CommandType = CommandType.StoredProcedure };
 
+            cmd.Parameters.AddWithValue("@ID_Turno", c.IdTurno);
+            cmd.Parameters.AddWithValue("@ID_Empleado", c.IdEmpleado);
             cmd.Parameters.AddWithValue("@Hora_Inicio", c.HoraInicio);
             cmd.Parameters.AddWithValue("@Hora_Fin", c.HoraFin);
             cmd.Parameters.AddWithValue("@Descripción", c.Descripcion);

@@ -2312,6 +2312,16 @@
           "estadoContrato": {
             "type": "string",
             "nullable": true
+          },
+          "fechaInicio": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "fechaFin": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -2364,6 +2374,14 @@
           "estadoContrato": {
             "type": "string",
             "nullable": true
+          },
+          "fechaInicio": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "fechaFin": {
+            "type": "string",
+            "format": "date-time"
           }
         },
         "additionalProperties": false
@@ -2371,6 +2389,10 @@
       "EmpleadoCreateDto": {
         "type": "object",
         "properties": {
+          "idContrato": {
+            "type": "integer",
+            "format": "int32"
+          },
           "nombre": {
             "type": "string",
             "nullable": true
@@ -2402,6 +2424,15 @@
           "nacionalidad": {
             "type": "string",
             "nullable": true
+          },
+          "fechaNacimiento": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "fechaIngreso": {
+            "type": "string",
+            "format": "date-time"
           }
         },
         "additionalProperties": false
@@ -2503,6 +2534,15 @@
           "nacionalidad": {
             "type": "string",
             "nullable": true
+          },
+          "fechaNacimiento": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "fechaIngreso": {
+            "type": "string",
+            "format": "date-time"
           }
         },
         "additionalProperties": false
@@ -2536,6 +2576,10 @@
           "empleadoID": {
             "maximum": 2147483647,
             "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "administradorID": {
             "type": "integer",
             "format": "int32"
           },
@@ -2807,6 +2851,10 @@
       "TurnoCreateDto": {
         "type": "object",
         "properties": {
+          "idEmpleado": {
+            "type": "integer",
+            "format": "int32"
+          },
           "tipoJornada": {
             "type": "string",
             "nullable": true
@@ -2818,6 +2866,14 @@
           "horasTrabajadas": {
             "type": "number",
             "format": "double"
+          },
+          "horaInicio": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "horaFin": {
+            "type": "string",
+            "format": "date-time"
           }
         },
         "additionalProperties": false
@@ -2878,6 +2934,14 @@
           "horasTrabajadas": {
             "type": "number",
             "format": "double"
+          },
+          "horaInicio": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "horaFin": {
+            "type": "string",
+            "format": "date-time"
           }
         },
         "additionalProperties": false

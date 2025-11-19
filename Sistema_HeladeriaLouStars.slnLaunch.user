@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "HeladeriaLouStars_API\\HeladeriaLouStars_API.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

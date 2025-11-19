@@ -20,5 +20,7 @@
         public string? Cedula { get; set; }
 
         public string? Nacionalidad { get; set; }
+        public DateTime? FechaNacimiento { get; set; }
+        public DateTime FechaIngreso { get; set; }
     }
 }

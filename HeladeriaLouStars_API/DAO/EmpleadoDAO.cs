@@ -85,13 +85,12 @@ namespace HeladeriaLouStars_API.DAO
             using var cmd = new SqlCommand(Procedimientos.SP_INSERTAR_EMPLEADOS, cn)
             { CommandType = CommandType.StoredProcedure };
 
-            
+            cmd.Parameters.AddWithValue("@ID_Contrato", c.IdContrato);
             cmd.Parameters.AddWithValue("@Nombre", c.Nombre);
             cmd.Parameters.AddWithValue("@Apellido", c.Apellido);
             cmd.Parameters.AddWithValue("@Email", c.Email);
             cmd.Parameters.AddWithValue("@Direccion", c.Direccion);
             cmd.Parameters.AddWithValue("@Cédula", c.Cedula);
-            cmd.Parameters.AddWithValue("@Email", c.Email);
             cmd.Parameters.AddWithValue("@Género", c.Genero);
             cmd.Parameters.AddWithValue("@Nacionalidad", c.Nacionalidad);
             cmd.Parameters.AddWithValue("@fecha_nacimiento", (object?)c.FechaNacimiento ?? DBNull.Value);
@@ -117,12 +116,13 @@ namespace HeladeriaLouStars_API.DAO
             using var cmd = new SqlCommand(Procedimientos.SP_ACTUALIZAR_EMPLEADOS, cn)
             { CommandType = CommandType.StoredProcedure };
 
+            cmd.Parameters.AddWithValue("@ID_Contrato", c.IdContrato);
+            cmd.Parameters.AddWithValue("@ID_Empleado", c.IdEmpleado);
             cmd.Parameters.AddWithValue("@Nombre", c.Nombre);
             cmd.Parameters.AddWithValue("@Apellido", c.Apellido);
             cmd.Parameters.AddWithValue("@Email", c.Email);
             cmd.Parameters.AddWithValue("@Direccion", c.Direccion);
             cmd.Parameters.AddWithValue("@Cédula", c.Cedula);
-            cmd.Parameters.AddWithValue("@Email", c.Email);
             cmd.Parameters.AddWithValue("@Género", c.Genero);
             cmd.Parameters.AddWithValue("@Nacionalidad", c.Nacionalidad);
             cmd.Parameters.AddWithValue("@fecha_nacimiento", (object?)c.FechaNacimiento ?? DBNull.Value);

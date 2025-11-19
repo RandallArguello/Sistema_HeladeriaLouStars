@@ -106,6 +106,7 @@ namespace HeladeriaLouStars_API.DAO
             using var cmd = new SqlCommand(Procedimientos.SP_ACTUALIZAR_CONTRATOS, cn)
             { CommandType = CommandType.StoredProcedure };
 
+            cmd.Parameters.AddWithValue("@ID_Contrato", c.IdContrato);
             cmd.Parameters.AddWithValue("@Salario_Base", c.SalarioBase);
             cmd.Parameters.AddWithValue("@Tipo_Contrato", c.TipoContrato);
             cmd.Parameters.AddWithValue("@Fecha_Inicio", c.FechaInicio);
@@ -122,7 +123,7 @@ namespace HeladeriaLouStars_API.DAO
             using var cmd = new SqlCommand(Procedimientos.SP_ELIMINAR_CONTRATOS, cn)
             { CommandType = CommandType.StoredProcedure };
 
-            cmd.Parameters.AddWithValue("@ID_Contratos", id);
+            cmd.Parameters.AddWithValue("@ID_Contrato", id);
 
             var result = await cmd.ExecuteScalarAsync();
             return result != null && Convert.ToInt32(result) == 1;
