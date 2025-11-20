@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|c:\\users\\israe\\documents\\universidad\\4\u00B0 semestre\\base de datos i\\proyectofinal-helader\u00EDaloustars\\sistema_heladerialoustars\\sistema_analisisfinanciero\\models\\repository\\reporterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|solutionrelative:sistema_analisisfinanciero\\models\\repository\\reporterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|c:\\users\\israe\\documents\\universidad\\4\u00B0 semestre\\base de datos i\\proyectofinal-helader\u00EDaloustars\\sistema_heladerialoustars\\sistema_analisisfinanciero\\views\\reporteempleadoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|solutionrelative:sistema_analisisfinanciero\\views\\reporteempleadoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\sistema_analisisfinanciero\\views\\reporteempleadoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|solutionrelative:sistema_analisisfinanciero\\views\\reporteempleadoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|c:\\users\\israe\\documents\\universidad\\4\u00B0 semestre\\base de datos i\\proyectofinal-helader\u00EDaloustars\\sistema_heladerialoustars\\sistema_analisisfinanciero\\models\\repository\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|solutionrelative:sistema_analisisfinanciero\\models\\repository\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|c:\\users\\israe\\documents\\universidad\\4\u00B0 semestre\\base de datos i\\proyectofinal-helader\u00EDaloustars\\sistema_heladerialoustars\\sistema_analisisfinanciero\\views\\agregarempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|solutionrelative:sistema_analisisfinanciero\\views\\agregarempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F47E5D44-E211-4C6C-8655-DB15AFB1E8E3}|HeladeriaLouStars_API\\HeladeriaLouStars_API.csproj|c:\\users\\israe\\documents\\universidad\\4\u00B0 semestre\\base de datos i\\proyectofinal-helader\u00EDaloustars\\sistema_heladerialoustars\\heladerialoustars_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F47E5D44-E211-4C6C-8655-DB15AFB1E8E3}|HeladeriaLouStars_API\\HeladeriaLouStars_API.csproj|solutionrelative:heladerialoustars_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|c:\\users\\israe\\documents\\universidad\\4\u00B0 semestre\\base de datos i\\proyectofinal-helader\u00EDaloustars\\sistema_heladerialoustars\\sistema_analisisfinanciero\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|solutionrelative:sistema_analisisfinanciero\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|c:\\users\\israe\\documents\\universidad\\4\u00B0 semestre\\base de datos i\\proyectofinal-helader\u00EDaloustars\\sistema_heladerialoustars\\sistema_analisisfinanciero\\views\\agregarempleado.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|solutionrelative:sistema_analisisfinanciero\\views\\agregarempleado.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47E5D44-E211-4C6C-8655-DB15AFB1E8E3}|HeladeriaLouStars_API\\HeladeriaLouStars_API.csproj|c:\\users\\israe\\documents\\universidad\\4\u00B0 semestre\\base de datos i\\proyectofinal-helader\u00EDaloustars\\sistema_heladerialoustars\\heladerialoustars_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F47E5D44-E211-4C6C-8655-DB15AFB1E8E3}|HeladeriaLouStars_API\\HeladeriaLouStars_API.csproj|solutionrelative:heladerialoustars_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|c:\\users\\israe\\documents\\universidad\\4\u00B0 semestre\\base de datos i\\proyectofinal-helader\u00EDaloustars\\sistema_heladerialoustars\\sistema_analisisfinanciero\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,14 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F47E5D44-E211-4C6C-8655-DB15AFB1E8E3}|HeladeriaLouStars_API\\HeladeriaLouStars_API.csproj|c:\\users\\israe\\documents\\universidad\\4\u00B0 semestre\\base de datos i\\proyectofinal-helader\u00EDaloustars\\sistema_heladerialoustars\\heladerialoustars_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F47E5D44-E211-4C6C-8655-DB15AFB1E8E3}|HeladeriaLouStars_API\\HeladeriaLouStars_API.csproj|solutionrelative:heladerialoustars_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|c:\\users\\israe\\documents\\universidad\\4\u00B0 semestre\\base de datos i\\proyectofinal-helader\u00EDaloustars\\sistema_heladerialoustars\\sistema_analisisfinanciero\\models\\repository\\reporterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|solutionrelative:sistema_analisisfinanciero\\models\\repository\\reporterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|c:\\users\\israe\\documents\\universidad\\4\u00B0 semestre\\base de datos i\\proyectofinal-helader\u00EDaloustars\\sistema_heladerialoustars\\sistema_analisisfinanciero\\views\\agregarempleado.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|solutionrelative:sistema_analisisfinanciero\\views\\agregarempleado.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|c:\\users\\israe\\documents\\universidad\\4\u00B0 semestre\\base de datos i\\proyectofinal-helader\u00EDaloustars\\sistema_heladerialoustars\\sistema_analisisfinanciero\\models\\dto\\admincreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,14 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F47E5D44-E211-4C6C-8655-DB15AFB1E8E3}|HeladeriaLouStars_API\\HeladeriaLouStars_API.csproj|c:\\users\\israe\\documents\\universidad\\4\u00B0 semestre\\base de datos i\\proyectofinal-helader\u00EDaloustars\\sistema_heladerialoustars\\heladerialoustars_api\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F47E5D44-E211-4C6C-8655-DB15AFB1E8E3}|HeladeriaLouStars_API\\HeladeriaLouStars_API.csproj|solutionrelative:heladerialoustars_api\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|c:\\users\\israe\\documents\\universidad\\4\u00B0 semestre\\base de datos i\\proyectofinal-helader\u00EDaloustars\\sistema_heladerialoustars\\sistema_analisisfinanciero\\views\\reporteempleadoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|solutionrelative:sistema_analisisfinanciero\\views\\reporteempleadoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\sistema_analisisfinanciero\\views\\reporteempleadoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|solutionrelative:sistema_analisisfinanciero\\views\\reporteempleadoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|c:\\users\\israe\\documents\\universidad\\4\u00B0 semestre\\base de datos i\\proyectofinal-helader\u00EDaloustars\\sistema_heladerialoustars\\sistema_analisisfinanciero\\views\\formnominas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -121,10 +125,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|c:\\users\\israe\\documents\\universidad\\4\u00B0 semestre\\base de datos i\\proyectofinal-helader\u00EDaloustars\\sistema_heladerialoustars\\sistema_analisisfinanciero\\models\\repository\\interfaces\\ireporterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|solutionrelative:sistema_analisisfinanciero\\models\\repository\\interfaces\\ireporterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|c:\\users\\israe\\documents\\universidad\\4\u00B0 semestre\\base de datos i\\proyectofinal-helader\u00EDaloustars\\sistema_heladerialoustars\\sistema_analisisfinanciero\\models\\repository\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|solutionrelative:sistema_analisisfinanciero\\models\\repository\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{231296FB-4C29-4BBB-B0A9-C24115C7C13C}|Sistema_AnalisisFinanciero\\HeladeriaLouStarsApp.csproj|c:\\users\\israe\\documents\\universidad\\4\u00B0 semestre\\base de datos i\\proyectofinal-helader\u00EDaloustars\\sistema_heladerialoustars\\sistema_analisisfinanciero\\models\\repository\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -278,7 +278,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -346,19 +346,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Program.cs",
-              "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Program.cs",
-              "ToolTip": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Program.cs",
-              "RelativeToolTip": "Sistema_AnalisisFinanciero\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ReporteEmpleadoForm.cs",
+              "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\ReporteEmpleadoForm.cs",
+              "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Views\\ReporteEmpleadoForm.cs",
+              "ToolTip": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\ReporteEmpleadoForm.cs",
+              "RelativeToolTip": "Sistema_AnalisisFinanciero\\Views\\ReporteEmpleadoForm.cs",
+              "ViewState": "AgIAAE4AAACAmJmZmdkkwFoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T07:31:43.445Z"
+              "WhenOpened": "2025-11-19T07:31:42.429Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\App.config",
               "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\App.config",
@@ -366,32 +367,20 @@
               "RelativeToolTip": "Sistema_AnalisisFinanciero\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-11-19T07:31:43.32Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\HeladeriaLouStars_API\\appsettings.json",
-              "RelativeDocumentMoniker": "HeladeriaLouStars_API\\appsettings.json",
-              "ToolTip": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\HeladeriaLouStars_API\\appsettings.json",
-              "RelativeToolTip": "HeladeriaLouStars_API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-19T07:31:43.351Z",
+              "WhenOpened": "2025-11-19T07:31:43.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AgregarEmpleado.cs",
-              "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\AgregarEmpleado.cs",
-              "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Views\\AgregarEmpleado.cs",
-              "ToolTip": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\AgregarEmpleado.cs",
-              "RelativeToolTip": "Sistema_AnalisisFinanciero\\Views\\AgregarEmpleado.cs",
-              "ViewState": "AgIAANEAAAAAAAAAAAAawDQAAAAAAAAAAAAAAA==",
+              "Title": "ReporteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Models\\Repository\\ReporteRepository.cs",
+              "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Models\\Repository\\ReporteRepository.cs",
+              "ToolTip": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Models\\Repository\\ReporteRepository.cs",
+              "RelativeToolTip": "Sistema_AnalisisFinanciero\\Models\\Repository\\ReporteRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T07:31:42.429Z",
+              "WhenOpened": "2025-11-19T07:31:42.319Z",
               "EditorCaption": ""
             },
             {
@@ -404,35 +393,12 @@
               "RelativeToolTip": "Sistema_AnalisisFinanciero\\Views\\AgregarEmpleado.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T07:31:43.257Z"
+              "WhenOpened": "2025-11-19T07:31:43.257Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\HeladeriaLouStars_API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "HeladeriaLouStars_API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\HeladeriaLouStars_API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "HeladeriaLouStars_API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAAB4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T07:31:43.523Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReporteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Models\\Repository\\ReporteRepository.cs",
-              "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Models\\Repository\\ReporteRepository.cs",
-              "ToolTip": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Models\\Repository\\ReporteRepository.cs",
-              "RelativeToolTip": "Sistema_AnalisisFinanciero\\Models\\Repository\\ReporteRepository.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAArwCoAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T07:31:42.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "AdminCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Models\\Dto\\AdminCreateDto.cs",
               "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Models\\Dto\\AdminCreateDto.cs",
@@ -444,7 +410,83 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Models\\Repository\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Models\\Repository\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Models\\Repository\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Sistema_AnalisisFinanciero\\Models\\Repository\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAQAAAAAMTMzMzMbwAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T07:31:43.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReporteEmpleadoForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\ReporteEmpleadoForm.cs",
+              "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Views\\ReporteEmpleadoForm.cs",
+              "ToolTip": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\ReporteEmpleadoForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sistema_AnalisisFinanciero\\Views\\ReporteEmpleadoForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T07:31:42.429Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AgregarEmpleado.cs",
+              "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\AgregarEmpleado.cs",
+              "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Views\\AgregarEmpleado.cs",
+              "ToolTip": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\AgregarEmpleado.cs",
+              "RelativeToolTip": "Sistema_AnalisisFinanciero\\Views\\AgregarEmpleado.cs",
+              "ViewState": "AgIAANEAAAAAAAAAAAAawDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T07:31:42.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Program.cs",
+              "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Program.cs",
+              "ToolTip": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Program.cs",
+              "RelativeToolTip": "Sistema_AnalisisFinanciero\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T07:31:43.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\HeladeriaLouStars_API\\appsettings.json",
+              "RelativeDocumentMoniker": "HeladeriaLouStars_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\HeladeriaLouStars_API\\appsettings.json",
+              "RelativeToolTip": "HeladeriaLouStars_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-19T07:31:43.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\HeladeriaLouStars_API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "HeladeriaLouStars_API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\HeladeriaLouStars_API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "HeladeriaLouStars_API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAB4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T07:31:43.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AdminUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\HeladeriaLouStars_API\\Dto\\AdminUpdateDto.cs",
               "RelativeDocumentMoniker": "HeladeriaLouStars_API\\Dto\\AdminUpdateDto.cs",
@@ -456,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "AdminDAO.cs",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\HeladeriaLouStars_API\\DAO\\AdminDAO.cs",
               "RelativeDocumentMoniker": "HeladeriaLouStars_API\\DAO\\AdminDAO.cs",
@@ -468,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "AdministradorDto.cs",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Models\\Dto\\AdministradorDto.cs",
               "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Models\\Dto\\AdministradorDto.cs",
@@ -480,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "AdministradoresController.cs",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\HeladeriaLouStars_API\\Controllers\\AdministradoresController.cs",
               "RelativeDocumentMoniker": "HeladeriaLouStars_API\\Controllers\\AdministradoresController.cs",
@@ -492,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "AdminService.cs",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\HeladeriaLouStars_API\\Services\\AdminService.cs",
               "RelativeDocumentMoniker": "HeladeriaLouStars_API\\Services\\AdminService.cs",
@@ -504,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "FormNominas.cs",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\FormNominas.cs",
               "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Views\\FormNominas.cs",
@@ -517,29 +559,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ReporteEmpleadoForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\ReporteEmpleadoForm.cs",
-              "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Views\\ReporteEmpleadoForm.cs",
-              "ToolTip": "C:\\Users\\steve\\OneDrive\\Desktop\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\ReporteEmpleadoForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\steve\\OneDrive\\Desktop\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\ReporteEmpleadoForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2025-11-19T07:31:42.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "FormNominas.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\FormNominas.cs",
               "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Views\\FormNominas.cs",
               "ToolTip": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\FormNominas.cs [Dise\u00F1o]",
               "RelativeToolTip": "Sistema_AnalisisFinanciero\\Views\\FormNominas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T07:31:42.413Z"
+              "WhenOpened": "2025-11-19T07:31:42.413Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "FormHome.cs",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\FormHome.cs",
               "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Views\\FormHome.cs",
@@ -552,41 +584,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ReporteEmpleadoForm.cs",
-              "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\ReporteEmpleadoForm.cs",
-              "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Views\\ReporteEmpleadoForm.cs",
-              "ToolTip": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\ReporteEmpleadoForm.cs",
-              "RelativeToolTip": "Sistema_AnalisisFinanciero\\Views\\ReporteEmpleadoForm.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAACAAAABrAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T07:31:42.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "FormHome.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\FormHome.cs",
               "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Views\\FormHome.cs",
               "ToolTip": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\FormHome.cs [Dise\u00F1o]",
               "RelativeToolTip": "Sistema_AnalisisFinanciero\\Views\\FormHome.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T07:31:43.241Z"
+              "WhenOpened": "2025-11-19T07:31:43.241Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "AgregarEmpleado.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\AgregarEmpleado.cs",
               "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Views\\AgregarEmpleado.cs",
               "ToolTip": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\AgregarEmpleado.cs [Dise\u00F1o]",
               "RelativeToolTip": "Sistema_AnalisisFinanciero\\Views\\AgregarEmpleado.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T07:31:43.257Z"
+              "WhenOpened": "2025-11-19T07:31:43.257Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "AgregarNomina.cs",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\AgregarNomina.cs",
               "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Views\\AgregarNomina.cs",
@@ -599,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Models\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Models\\Repository\\Repository.cs",
@@ -611,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "FormEmpleados.cs",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\FormEmpleados.cs",
               "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Views\\FormEmpleados.cs",
@@ -623,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ApiEmpleado.cs",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Controllers\\ApiEmpleado.cs",
               "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Controllers\\ApiEmpleado.cs",
@@ -635,18 +657,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "AgregarNomina.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\AgregarNomina.cs",
               "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Views\\AgregarNomina.cs",
               "ToolTip": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\AgregarNomina.cs [Dise\u00F1o]",
               "RelativeToolTip": "Sistema_AnalisisFinanciero\\Views\\AgregarNomina.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T07:31:43.304Z"
+              "WhenOpened": "2025-11-19T07:31:43.304Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "EmpleadoDAO.cs",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\HeladeriaLouStars_API\\DAO\\EmpleadoDAO.cs",
               "RelativeDocumentMoniker": "HeladeriaLouStars_API\\DAO\\EmpleadoDAO.cs",
@@ -658,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "NominaDAO.cs",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\HeladeriaLouStars_API\\DAO\\NominaDAO.cs",
               "RelativeDocumentMoniker": "HeladeriaLouStars_API\\DAO\\NominaDAO.cs",
@@ -670,7 +693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "LogIn.cs",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\LogIn.cs",
               "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Views\\LogIn.cs",
@@ -683,30 +706,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Models\\Repository\\Interfaces\\IRepository.cs",
-              "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Models\\Repository\\Interfaces\\IRepository.cs",
-              "ToolTip": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Models\\Repository\\Interfaces\\IRepository.cs",
-              "RelativeToolTip": "Sistema_AnalisisFinanciero\\Models\\Repository\\Interfaces\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T07:31:43.32Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "LogIn.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\LogIn.cs",
               "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Views\\LogIn.cs",
               "ToolTip": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Views\\LogIn.cs [Dise\u00F1o]",
               "RelativeToolTip": "Sistema_AnalisisFinanciero\\Views\\LogIn.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T07:31:43.335Z"
+              "WhenOpened": "2025-11-19T07:31:43.335Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "IReporteRepository.cs",
               "DocumentMoniker": "C:\\Users\\israe\\Documents\\Universidad\\4\u00B0 semestre\\Base de Datos I\\ProyectoFinal-Helader\u00EDaLouStars\\Sistema_HeladeriaLouStars\\Sistema_AnalisisFinanciero\\Models\\Repository\\Interfaces\\IReporteRepository.cs",
               "RelativeDocumentMoniker": "Sistema_AnalisisFinanciero\\Models\\Repository\\Interfaces\\IReporteRepository.cs",

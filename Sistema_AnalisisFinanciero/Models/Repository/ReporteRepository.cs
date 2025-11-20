@@ -37,17 +37,19 @@ namespace HeladeriaLouStarsApp.Models.Repository
             // Realiza la solicitud HTTP GET
             var response = await _httpEmployee.GetAsync(url);
 
-            if (!response.IsSuccessStatusCode)
+            if (inicio.HasValue && fin.HasValue && inicio > fin)
             {
-                var error = await response.Content.ReadAsStringAsync();
-                throw new HttpRequestException($"Error al obtener reporte: {response.StatusCode} - {error}");
+                throw new ArgumentException("La fecha de inicio no puede ser mayor que la fecha de fin.");
             }
 
             // Leer contenido y deserializar usando Newtonsoft.Json
             var json = await response.Content.ReadAsStringAsync();
-            var data = JsonConvert.DeserializeObject<IEnumerable<ReporteEmpleadoDto>>(json);
+            var item = JsonConvert.DeserializeObject<ReporteEmpleadoDto>(json);
+            return item != null ? new List<ReporteEmpleadoDto> { item } : Enumerable.Empty<ReporteEmpleadoDto>();
 
-            return data ?? Enumerable.Empty<ReporteEmpleadoDto>();
         }
+
+   
+
     }
 }

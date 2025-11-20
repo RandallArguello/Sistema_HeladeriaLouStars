@@ -29,15 +29,75 @@ namespace HeladeriaLouStarsApp.Views
 
         private async void btnBuscar_Click(object sender, EventArgs e)
         {
-            // Await the asynchronous method to get the data
-            var datos = await _apiClient.Reportes.ObtenerReporteEmpleados(dtpFechaInicio.Value, dtpFechaFin.Value);
+            try
+            {
+                DateTime? fechaInicio = dtpFechaInicio.Checked ? dtpFechaInicio.Value : (DateTime?)null;
+                DateTime? fechaFin = dtpFechaFin.Checked ? dtpFechaFin.Value : (DateTime?)null;
 
-            // Convert the IEnumerable to a List for binding to the DataGridView
-            dgvReporte.DataSource = datos.ToList();
+                Console.WriteLine($"📅 Fechas seleccionadas: Inicio={fechaInicio}, Fin={fechaFin}"); // DEBUG
 
-            //string tipoGrafico = cmbTipoGrafico.SelectedItem?.ToString() ?? "Barra";
-            GenerarGrafico(datos.ToList()); // Pass the selected chart type
+                // Mostrar loading
+                Cursor = Cursors.WaitCursor;
+                btnBuscar.Enabled = false;
+
+                var datos = await _apiClient.Reportes.ObtenerReporteEmpleados(fechaInicio, fechaFin);
+
+                Console.WriteLine($"📊 Datos recibidos del repository: {datos?.Count() ?? 0} registros"); // DEBUG
+
+                if (datos == null)
+                {
+                    MessageBox.Show("❌ No se recibieron datos del servidor (null)");
+                    return;
+                }
+
+                var datosLista = datos.ToList();
+                Console.WriteLine($"📋 Datos convertidos a lista: {datosLista.Count} registros"); // DEBUG
+
+                if (!datosLista.Any())
+                {
+                    MessageBox.Show("ℹ️ No hay datos para mostrar en el período seleccionado",
+                                  "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    dgvReporte.DataSource = null;
+                    LimpiarGrafico();
+                    return;
+                }
+
+                // DEBUG: Mostrar primeros 3 registros en consola
+                Console.WriteLine("🔍 Primeros 3 registros:");
+                for (int i = 0; i < Math.Min(3, datosLista.Count); i++)
+                {
+                    var item = datosLista[i];
+                    Console.WriteLine($"   [{i}] IdEmpleado: {item.IdEmpleado}, Nombre: {item.Nombre}, Total: {item.TotalPagado}");
+                }
+
+                dgvReporte.DataSource = datosLista;
+                GenerarGrafico(datosLista);
+
+                MessageBox.Show($"✅ Se cargaron {datosLista.Count} registros correctamente",
+                              "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"💥 Error en btnBuscar: {ex}"); // DEBUG
+                MessageBox.Show($"Error al obtener datos: {ex.Message}", "Error",
+                               MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                Cursor = Cursors.Default;
+                btnBuscar.Enabled = true;
+            }
         }
+        
+        private void LimpiarGrafico()
+        {
+            var plt = formsPlot1.Plot;
+            plt.Clear();
+            plt.Title("No hay datos para mostrar", size: 14, color: Color.Gray);
+            plt.XLabel("Seleccione un período con datos válidos");
+            formsPlot1.Refresh();
+        }
+
         private void GenerarGrafico(List<ReporteEmpleadoDto> datos, string tipo = "Barra")
         {
             var plt = formsPlot1.Plot;

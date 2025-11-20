@@ -126,3 +126,6 @@ C:\Users\israe\Documents\Universidad\4° semestre\Base de Datos I\ProyectoFinal-
 C:\Users\steve\OneDrive\Desktop\Sistema_HeladeriaLouStars\Sistema_AnalisisFinanciero\obj\Debug\net8.0-windows\HeladeriaLouStarsApp.Views.AgregarContrato.resources
 C:\Users\steve\OneDrive\Desktop\Sistema_HeladeriaLouStars\Sistema_AnalisisFinanciero\obj\Debug\net8.0-windows\HeladeriaLouStarsApp.Views.AgregarTurno.resources
 C:\Users\steve\OneDrive\Desktop\Sistema_HeladeriaLouStars\Sistema_AnalisisFinanciero\obj\Debug\net8.0-windows\HeladeriaLouStarsApp.Views.AgregarAdmin.resources
+C:\Users\israe\Documents\Universidad\4° semestre\Base de Datos I\ProyectoFinal-HeladeríaLouStars\Sistema_HeladeriaLouStars\Sistema_AnalisisFinanciero\obj\Debug\net8.0-windows\HeladeriaLouStarsApp.Views.AgregarAdmin.resources
+C:\Users\israe\Documents\Universidad\4° semestre\Base de Datos I\ProyectoFinal-HeladeríaLouStars\Sistema_HeladeriaLouStars\Sistema_AnalisisFinanciero\obj\Debug\net8.0-windows\HeladeriaLouStarsApp.Views.AgregarContrato.resources
+C:\Users\israe\Documents\Universidad\4° semestre\Base de Datos I\ProyectoFinal-HeladeríaLouStars\Sistema_HeladeriaLouStars\Sistema_AnalisisFinanciero\obj\Debug\net8.0-windows\HeladeriaLouStarsApp.Views.AgregarTurno.resources
