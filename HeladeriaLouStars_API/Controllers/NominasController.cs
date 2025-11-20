@@ -138,7 +138,7 @@ namespace HeladeriaLouStars_API.Controllers
                 return BadRequest(new { error });
             }
 
-            var nominaDto = _mapper.Map<EmpleadoDto>(existingNomina);
+            var nominaDto = _mapper.Map<NominaDto>(existingNomina);
 
             _logger.LogInformation("Cliente con ID {Id} actualizado exitosamente", id);
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HeladeriaLouStars_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ae3f4bb36f4419c7ed513b571a983d8cc109ce9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01cd624bb0f5801480f6a116989e435f289c92d4")]
 [assembly: System.Reflection.AssemblyProductAttribute("HeladeriaLouStars_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HeladeriaLouStars_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

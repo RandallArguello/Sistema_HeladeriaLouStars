@@ -7,15 +7,15 @@ namespace Sistema_AnalisisFinanciero
 {
     public partial class FormHome : Form
     {
-        private readonly ApiEmpleado _apiLouStars;
+        private readonly ApiEmpleado _apiClient;
 
         private IconButton currentBtn;
         private Panel leftBorderBtn;
         private Form currentChildForm;
-        public FormHome(ApiEmpleado apiLouStars)
+        public FormHome(ApiEmpleado apiClient)
         {
             InitializeComponent();
-            _apiLouStars = apiLouStars;
+            _apiClient = apiClient;
 
 
             leftBorderBtn = new Panel();
@@ -111,25 +111,25 @@ namespace Sistema_AnalisisFinanciero
         private void btnEmpleados_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color1);
-            OpenChildForm(new FormEmpleados(_apiLouStars));
+            OpenChildForm(new FormEmpleados(_apiClient));
         }
 
         private void btnNominas_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color2);
-            OpenChildForm(new FormNominas(_apiLouStars));
+            OpenChildForm(new FormNominas(_apiClient));
         }
 
         private void btnContratos_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color3);
-            OpenChildForm(new FormContratos());
+            OpenChildForm(new FormContratos(_apiClient));
         }
 
         private void btnTurnos_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color4);
-            OpenChildForm(new FormTurnos());
+            OpenChildForm(new FormTurnos(_apiClient));
         }
 
 
@@ -179,7 +179,7 @@ namespace Sistema_AnalisisFinanciero
         private void btnAdministradores_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color5);
-            OpenChildForm(new FormAdmins());
+            OpenChildForm(new FormAdmins(_apiClient));
         }
 
         private void FormHome_Load(object sender, EventArgs e)
@@ -190,7 +190,7 @@ namespace Sistema_AnalisisFinanciero
         private void btnReportes_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color6);
-            OpenChildForm(new ReporteEmpleadoForm(_apiLouStars));
+            OpenChildForm(new ReporteEmpleadoForm(_apiClient));
         }
     }
 }

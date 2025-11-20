@@ -32,6 +32,12 @@ namespace Sistema_AnalisisFinanciero
             {
                 var students = await _apiClient.Empleados.GetAllAsync();
                 dgvEmpleados.DataSource = students.ToList();
+
+                if (dgvEmpleados.Columns["Fecha Ingreso"] != null)
+                    dgvEmpleados.Columns["Fecha Ingreso"].DefaultCellStyle.Format = "dd/MM/yyyy";
+
+                if (dgvEmpleados.Columns["Fecha Nacimiento"] != null)
+                    dgvEmpleados.Columns["Fecha Nacimiento"].DefaultCellStyle.Format = "dd/MM/yyyy";
             }
             catch (Exception ex)
             {

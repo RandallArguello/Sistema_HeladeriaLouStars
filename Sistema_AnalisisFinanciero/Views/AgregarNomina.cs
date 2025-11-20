@@ -43,7 +43,14 @@ namespace HeladeriaLouStarsApp.Views
             txtEmpleadoID.Text = _nominaExistente.EmpleadoID.ToString();
             txtAdminId.Text = _nominaExistente.AdministradorID.ToString();
             txtBonificaciones.Text = _nominaExistente.Bonificaciones.ToString();
-            DtPeriodo.Value = _nominaExistente.Periodo;
+            if (nominaExistente.Periodo > DateTime.MinValue)
+            {
+                DtPeriodo.Value = nominaExistente.Periodo;
+            }
+            else
+            {
+                DtPeriodo.Value = DateTime.Today; // Valor por defecto
+            }
             txtHorasExtra.Text = _nominaExistente.HorasExtra.ToString();
             txtAntiguedad.Text = _nominaExistente.Antiguedad.ToString();
             txtSalarioMensual.Text = _nominaExistente.SalarioDevengado.ToString();
