@@ -31,55 +31,29 @@ namespace HeladeriaLouStarsApp.Views
         {
             try
             {
-                DateTime? fechaInicio = dtpFechaInicio.Checked ? dtpFechaInicio.Value : (DateTime?)null;
-                DateTime? fechaFin = dtpFechaFin.Checked ? dtpFechaFin.Value : (DateTime?)null;
-
-                Console.WriteLine($"📅 Fechas seleccionadas: Inicio={fechaInicio}, Fin={fechaFin}"); // DEBUG
+                DateTime? fechaInicio = dtpFechaInicio.Checked ? dtpFechaInicio.Value.Date : (DateTime?)null;
+                DateTime? fechaFin = dtpFechaFin.Checked ? dtpFechaFin.Value.Date : (DateTime?)null;
 
                 // Mostrar loading
                 Cursor = Cursors.WaitCursor;
                 btnBuscar.Enabled = false;
 
+                // Obtener datos (usará modo prueba automáticamente)
                 var datos = await _apiClient.Reportes.ObtenerReporteEmpleados(fechaInicio, fechaFin);
-
-                Console.WriteLine($"📊 Datos recibidos del repository: {datos?.Count() ?? 0} registros"); // DEBUG
-
-                if (datos == null)
-                {
-                    MessageBox.Show("❌ No se recibieron datos del servidor (null)");
-                    return;
-                }
-
                 var datosLista = datos.ToList();
-                Console.WriteLine($"📋 Datos convertidos a lista: {datosLista.Count} registros"); // DEBUG
 
-                if (!datosLista.Any())
-                {
-                    MessageBox.Show("ℹ️ No hay datos para mostrar en el período seleccionado",
-                                  "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    dgvReporte.DataSource = null;
-                    LimpiarGrafico();
-                    return;
-                }
-
-                // DEBUG: Mostrar primeros 3 registros en consola
-                Console.WriteLine("🔍 Primeros 3 registros:");
-                for (int i = 0; i < Math.Min(3, datosLista.Count); i++)
-                {
-                    var item = datosLista[i];
-                    Console.WriteLine($"   [{i}] IdEmpleado: {item.IdEmpleado}, Nombre: {item.Nombre}, Total: {item.TotalPagado}");
-                }
-
+                // Mostrar resultados
                 dgvReporte.DataSource = datosLista;
                 GenerarGrafico(datosLista);
 
-                MessageBox.Show($"✅ Se cargaron {datosLista.Count} registros correctamente",
-                              "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show($"✅ Se cargaron {datosLista.Count} registros\n\n" +
+                               "💡 Nota: Usando datos de prueba mientras el equipo de backend soluciona el error 'Nombre'",
+                               "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"💥 Error en btnBuscar: {ex}"); // DEBUG
-                MessageBox.Show($"Error al obtener datos: {ex.Message}", "Error",
+                MessageBox.Show($"Error: {ex.Message}", "Error",
                                MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
@@ -89,14 +63,6 @@ namespace HeladeriaLouStarsApp.Views
             }
         }
         
-        private void LimpiarGrafico()
-        {
-            var plt = formsPlot1.Plot;
-            plt.Clear();
-            plt.Title("No hay datos para mostrar", size: 14, color: Color.Gray);
-            plt.XLabel("Seleccione un período con datos válidos");
-            formsPlot1.Refresh();
-        }
 
         private void GenerarGrafico(List<ReporteEmpleadoDto> datos, string tipo = "Barra")
         {
