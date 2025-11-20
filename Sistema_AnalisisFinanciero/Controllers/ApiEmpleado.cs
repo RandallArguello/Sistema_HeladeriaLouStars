@@ -32,10 +32,10 @@ namespace HeladeriaLouStarsApp.Controllers
                 BaseAddress = new Uri(apiBaseUrl)
             };
             Empleados = new Repository<EmpleadoDto>(_httpEmployee, "Empleados");
-            Nominas = new Repository<NominaDto>(_httpEmployee, "Nomina");
-            Contratos = new Repository<ContratoDto>(_httpEmployee, "Contrato");
-            Turnos = new Repository<TurnoDto>(_httpEmployee, "Turno");
-            Administradores = new Repository<AdministradorDto>(_httpEmployee, "Administrador");
+            Nominas = new Repository<NominaDto>(_httpEmployee, "Nominas");
+            Contratos = new Repository<ContratoDto>(_httpEmployee, "Contratos");
+            Turnos = new Repository<TurnoDto>(_httpEmployee, "Turnos");
+            Administradores = new Repository<AdministradorDto>(_httpEmployee, "Administradores");
             LoginUsers = new UserRepository(_httpEmployee, "Auth/login");
             Reportes = new ReporteRepository(_httpEmployee, "Reportes/EmpleadosJson");
         }

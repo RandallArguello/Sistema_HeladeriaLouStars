@@ -21,12 +21,21 @@ namespace Sistema_AnalisisFinanciero
             InitializeComponent();
             _apiClient = apiClient;
         }
+        
+        private async void FormNominas_Load(object sender, EventArgs e)
+        {
+            await LoadNominasAsync();
+        }
         private async Task LoadNominasAsync()
         {
             try
             {
                 var nominas = await _apiClient.Nominas.GetAllAsync();
                 dgvNominas.DataSource = nominas.ToList();
+                if (dgvNominas.Columns["Periodo"] != null)
+                    dgvNominas.Columns["Periodo"].DefaultCellStyle.Format = "dd/MM/yyyy";
+
+           
             }
             catch (Exception ex)
             {
@@ -34,11 +43,6 @@ namespace Sistema_AnalisisFinanciero
        "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        private async void FormNominas_Load(object sender, EventArgs e)
-        {
-            await LoadNominasAsync();
-        }
-
         private void btnAgregarNomina_Click(object sender, EventArgs e)
         {
             try
